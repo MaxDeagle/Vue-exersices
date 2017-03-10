@@ -3,8 +3,18 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueScrollTo from 'vue-scrollTo'
+
+
+
+const inBrowser = typeof window !== 'undefined'
+if (inBrowser) {
+  Vue.use(VueScrollTo)
+}
 
 Vue.config.productionTip = false
+
+
 
 /* eslint-disable no-new */
 new Vue({

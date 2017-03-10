@@ -1,0 +1,28 @@
+
+.welcome {
+
+
+min-height: 300px;
+
+background: linear-gradient(
+                     rgba(20,20,20, .75), 
+                     rgba(20,20,20, .75)),
+                     url( '../../public/welcome.jpg');
+
+
+h1 {
+	color:#FFF;
+}
+/*
+.img-container { 
+	background-color: #000000; 
+    z-index: 0;
+	img {
+		opacity: 0.38; 
+		height:300px;
+		width:100%;
+	}
+}*/
+
+}
+ 
