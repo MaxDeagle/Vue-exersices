@@ -2,6 +2,8 @@
  <section>
  	<div class='container welcome'>
     <h1>Welcome to our blahblahblah</h1>
+    <button v-on:click='clickHere'>Click here</button>
+    <div v-if="clicked">Yo man</div> 
  	</div>
  </section>
 </template>
@@ -9,10 +11,18 @@
 <script>
 export default {
   name: 'hello',
+
   data () {
     return {
-      msg: 'Welcome to our site'
+      msg: 'Welcome to our site',
+      clicked: false
     }
+  },
+  methods: {
+  	clickHere: function () {
+  		this.clicked = true
+  		alert('privet')
+  	}
   }
 }
 </script>
