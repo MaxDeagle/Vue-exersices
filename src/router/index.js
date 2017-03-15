@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Coffee from '@/components/Coffee'
+import Coffee from '@/components/Coffee/Coffee'
 import Home from '@/components/Home'
 
 Vue.use(Router)
