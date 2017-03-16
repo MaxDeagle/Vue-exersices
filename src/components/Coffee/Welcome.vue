@@ -21,7 +21,7 @@ export default {
   methods: {
   	clickHere: function () {
   		this.clicked = true
-  		alert('privet')
+  		alert('privet. тест акка Кати')
   	}
   }
 }
