@@ -1,10 +1,7 @@
 <template>
-<section>
-<h1>Home</h1>
-<a href='http://localhost:8080/#/Coffee'>Go to Coffee</a>
-<br>
-<a href='http://localhost:8080/#/Games'>Go to Games</a>
-</section>
+ <div class='wrapper'>
+  Max
+ </div>
 </template>
 
 <script>
@@ -12,12 +9,15 @@ export default {
   name: 'hello',
   data () {
     return {
+      msg: 'Welcome to our site'
     }
+  },
+  components: {
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style lang='scss'>  
+@import '../../scss/base.scss'
 </style>
